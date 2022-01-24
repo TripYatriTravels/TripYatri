@@ -2612,14 +2612,14 @@ footer ul a:visited {
 
 .footer-logo {
   display: block;
-  margin: 0 0 5.4rem 0;
-  padding: 0;
+  margin: 6px 0px 3.4000000000000004rem 57px;
+  padding: 0px;
   outline: 0;
   border: none;
-  width: 93px;
-  height: 21px;
-  background: url("../images/logo1.png") no-repeat center;
-  background-size: 93px 21px;
+  width: 124px;
+  height: 124px;
+  background: url(../images/logo1.png) no-repeat center;
+  background-size: 124px 124px;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
