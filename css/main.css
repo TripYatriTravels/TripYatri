@@ -1291,6 +1291,8 @@ h1.intro-header::before {
   line-height: 72px;
 }
 
+
+
 #header-nav-wrap .header-main-nav li a,
 #header-nav-wrap .header-main-nav li a:visited {
   color: rgba(255, 255, 255, 0.45);
@@ -1320,9 +1322,18 @@ h1.intro-header::before {
 
 
 /* ------------------------------------------------------------------- 
- * responsive:
- * header
- * ------------------------------------------------------------------- */
+* responsive:
+* header
+* ------------------------------------------------------------------- */
+
+@media only screen and (min-width: 768px) {
+  #header-nav-wrap .header-main-nav li.current a {
+  color: #000000;
+  background: #fffb00;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  }
+}
 
 @media only screen and (max-width: 1230px) {
   #header {
