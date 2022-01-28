@@ -1303,8 +1303,8 @@ h1.intro-header::before {
 
 #header-nav-wrap .header-main-nav li.current a {
   color: #000000;
-  padding: 0px 27px 0px 27px;
   background: #fffb00;
+  padding-left: 8vw;
 }
 
 #header-nav-wrap .cta {
@@ -1359,6 +1359,7 @@ h1.intro-header::before {
   }
   #header-nav-wrap .header-main-nav li a {
     padding: 18px 0;
+    padding-left: 7vw;
     line-height: 18px;
   }
   #header-nav-wrap .cta {
@@ -1769,7 +1770,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 @media only screen and (max-width: 768px) {
   #home {
-    min-height: auto;
+    min-height: 100vh;
   }
   .home-content-left h3 {
     font-size: 1.4rem;
@@ -1816,7 +1817,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 @media only screen and (max-width: 400px) {
   .home-content-left {
-    padding: 20rem 0 225px;
+    padding: 30vh 0 30vh;
   }
   .home-content-left .button.stroke {
     margin: 0 0 1.2rem 0;
@@ -2613,7 +2614,7 @@ footer ul a:visited {
 
 .footer-logo {
   display: block;
-  margin: 6px 0px 3.4000000000000004rem 57px;
+  margin: 6px auto;
   padding: 0px;
   outline: 0;
   border: none;
@@ -2630,9 +2631,7 @@ footer ul a:visited {
 
 .footer-social-list {
   font-size: 3.0rem;
-  margin-top: 4.5rem;
-  margin-bottom: 3rem;
-  margin-left: 45px;
+  margin: 4rem auto;
 }
 
 .footer-social-list li {
@@ -2839,7 +2838,7 @@ footer ul a:visited {
   .footer-main ul.list-links li a {
     display: block;
     border-bottom: 1px solid rgba(255, 255, 255, 0.03);
-    padding: .6rem 0;
+    padding: 0.5rem 0;
   }
   .footer-main ul.list-links li:first-child a {
     border-top: 1px solid rgba(255, 255, 255, 0.03);
