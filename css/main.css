@@ -2537,7 +2537,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * ------------------------------------------------------------------- */
 
 #trips {
-  background: #d0b837;
+  background: black;
   color: #b2fabc;
   padding-top: 12rem;
   padding-bottom: 12rem;
@@ -2618,6 +2618,21 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   padding: 20px 0px;
 }
 
+#trips .poster-place{
+  margin: 10px 20px;
+  background-color: white;
+}
+
+#trips .poster-place .row .col-full{
+  padding: 20px 10px;
+  background-color: white;
+}
+
+#trips h1{
+  color: black;
+}
+
+
 #itinerary .row{
   background-color: white;
 }
@@ -2636,6 +2651,12 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   #itinerary .row .col-full{
     padding: 70px 20px;
   }
+
+  .booknow-button{
+    color: #000;
+    background-color:#2A9038;
+  }
+
 }
 /* ===================================================================
  *  15. footer styles - (_site-layout.scss)
