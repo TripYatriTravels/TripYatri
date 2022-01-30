@@ -1486,9 +1486,18 @@ h1.intro-header::before {
   background-color: #000000;
 }
 
-.no-js #home {
-  background: #151515;
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
+
+/* .no-js #home {
+  background: #151515;
+} */
 
 .home-content {
   display: table-cell;
@@ -1541,8 +1550,8 @@ h1.intro-header::before {
 
 .home-content-left .button.stroke:hover,
 .home-content-left .button.stroke:focus {
-  background-color: white !important;
-  color: #000000 !important;
+  background-color: white;
+  color: #000000;
 }
 
 .home-image-right {
@@ -2602,8 +2611,32 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   }
 }
 
+/* Manually added */
 
+#itinerary{
+  background-color: black;
+  padding: 20px 0px;
+}
 
+#itinerary .row{
+  background-color: white;
+}
+#itinerary .row .col-full{
+  padding: 70px 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  #itinerary{
+    background-color: black;
+    padding: 20px 20px;
+  }
+  #itinerary .row{
+    background-color: white;
+  }
+  #itinerary .row .col-full{
+    padding: 70px 20px;
+  }
+}
 /* ===================================================================
  *  15. footer styles - (_site-layout.scss)
  *
